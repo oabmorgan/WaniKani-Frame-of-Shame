@@ -35,7 +35,7 @@ Easy to make, no soldering required!
   * ` WHITE -> GND`
 * Reattach the usb cable and you're done!
 
-* Optionally, i've included a case to 3D Print.
+* Optionally, i've included a [case to 3D Print](https://github.com/oabmorgan/WaniKani-Frame-of-Shame/tree/main/STLs).
 ![back](https://user-images.githubusercontent.com/38126042/147902615-890019ac-f4f1-4f56-8e00-347b9b43f138.jpg)
 
 ## Required Libraries
