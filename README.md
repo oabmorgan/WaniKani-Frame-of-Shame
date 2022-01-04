@@ -19,8 +19,10 @@ Easy to make, no soldering required!
 
 ## Instructions
 * Make a hole in the backing board of the frame for the input wires to go through. You can remove the output port and the extra voltage wires.
+
+![wiring guide](https://user-images.githubusercontent.com/38126042/147903458-fe6f4511-f9a7-40a1-a9a4-806df57007de.png)
 * Fit the LED matrix into the frame. I used double sided tape make it lie flat on backing board. 
-* Open WaniKani.ino (you need the [Arduino IDE installed and set up for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html) if it's not already) and make the following changes.
+* Download and open [WaniKani.ino](https://github.com/oabmorgan/WaniKani-Frame-of-Shame/blob/main/WaniKani/WaniKani.ino) (you need the [Arduino IDE installed and set up for the ESP8266](https://arduino-esp8266.readthedocs.io/en/latest/installing.html) if it's not already) and make the following changes.
   * ` const char* ssid = "SSID"; ` Fill in your WiFi SSID
   * ` const char* password = "PASSWORD"; ` Fill in your WiFi Password
   * `const char* apiKey = "WK-API-KEY";` Fill in your [WaniKani API Key](https://www.wanikani.com/settings/personal_access_tokens)
@@ -33,7 +35,7 @@ Easy to make, no soldering required!
   * ` WHITE -> GND`
 * Reattach the usb cable and you're done!
 
-* Optionally, i've included a case to 3D Print.
+* Optionally, i've included a [case to 3D Print](https://github.com/oabmorgan/WaniKani-Frame-of-Shame/tree/main/STLs).
 ![back](https://user-images.githubusercontent.com/38126042/147902615-890019ac-f4f1-4f56-8e00-347b9b43f138.jpg)
 
 ## Required Libraries
