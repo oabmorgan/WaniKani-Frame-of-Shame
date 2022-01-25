@@ -103,7 +103,7 @@ void setLED(int SRS) {
       leds[pos] = blend(colorA, colorB, 30 * SRS);
       delay(10);
     } else {
-      leds[pos].fadeToBlackBy(128);
+      leds[pos].fadeToBlackBy(192);
       delay(10);
     }
     pos ++;
