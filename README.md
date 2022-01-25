@@ -41,3 +41,13 @@ Easy to make, no soldering required!
 ## Required Libraries
 - ArduinoJson
 - FastLED
+
+## Troubleshooting
+Make sure the `LED_PIN` is set correctly.
+Try using a different pin order by swapping beween these lines:
+
+`#define FASTLED_ESP8266_RAW_PIN_ORDER`
+
+`//#define FASTLED_ESP8266_NODEMCU_PIN_ORDER`
+
+`//#define FASTLED_ESP8266_D1_PIN_ORDER`
