@@ -1,3 +1,4 @@
+#define FASTLED_ESP8266_RAW_PIN_ORDER
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
@@ -46,7 +47,7 @@ const uint8_t maxPower = 400;
 
 
 unsigned long scaledTime;
-#define LED_PIN  4
+#define LED_PIN  14
 
 #define COLOR_ORDER GRB
 #define CHIPSET     WS2812B
